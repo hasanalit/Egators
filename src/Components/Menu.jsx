@@ -1,17 +1,17 @@
 
 import logos from '../Images/react.svg'
 import closes from '../Images/xmark.svg'
-import dashboard from '../Images/dashboard.svg'
-import person from '../Images/person.svg'
-import arrow from '../Images/arrow.svg'
-import chart from '../Images/chart.svg'
-import circle from '../Images/circle.svg'
-import clipboard from '../Images/clipboard.svg'
-import gear from '../Images/gear.svg'
-import messages from '../Images/messages.svg'
-import plus from '../Images/plus.svg'
-import receipt from '../Images/receipt.svg'
-import xmark from '../Images/xmark.svg'
+// import dashboard from '../Images/dashboard.svg'
+// import person from '../Images/person.svg'
+// import arrow from '../Images/arrow.svg'
+// import chart from '../Images/chart.svg'
+// import circle from '../Images/circle.svg'
+// import clipboard from '../Images/clipboard.svg'
+// import gear from '../Images/gear.svg'
+// import messages from '../Images/messages.svg'
+// import plus from '../Images/plus.svg'
+// import receipt from '../Images/receipt.svg'
+// import xmark from '../Images/xmark.svg'
 
 function Menu() {
     return (
@@ -28,7 +28,7 @@ function Menu() {
             </span>
           </div>
           <div className='sidebar'>
-            <a href="#">
+            {/* <a href="#">
               <span className='material-icon-sharp'>
                   <img src={dashboard} alt="dashboards" />
               </span>
@@ -88,7 +88,7 @@ function Menu() {
                   <img src={xmark} alt="xmark" />
               </span>
               <h3>Logout</h3>
-            </a>
+            </a> */}
 
           </div>
         </div>
