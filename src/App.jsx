@@ -1,10 +1,14 @@
 
 import './App.css';
+import './Components/Menu'
+import Menu from './Components/Menu';
 
 function App() {
   return (
     <>
-    <h1>SAlom</h1>
+    <div className='container'>
+      <Menu />
+    </div>
     </>
   );
 }
